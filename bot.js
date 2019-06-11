@@ -129,4 +129,5 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login("NTg3OTc1NTUzNTAwNDQ2NzIw.XP-hhA.WaYgvBWB9eD2iz-KLoI7CvniZXQ
+client.login(process.env.BOT_TOKEN);
+
